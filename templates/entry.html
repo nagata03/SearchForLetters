@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<form method='POST' action='/search4'>
+    <table>
+        <p>フレーズから、入力された文字を検索します。</p>
+        <tr><td>フレーズ：</td><td><input name='phrase' type='TEXT' width='60'></td></tr>
+        <tr><td>文字：</td><td><input name='letters' type='TEXT' value='aeiou'></td></tr>
+    </table>
+    <p>準備ができたら、以下のボタンを押してください。</p>
+    <p><input value='実行！' type='SUBMIT'></p>
+</form>
+<hr>
+<form method='POST' action='/search42'>
+    <table>
+        <p>フレーズから、入力された単語の出現回数を調べます。単語はカンマか半角スペースで区切ってください。</p>
+        <tr><td>フレーズ：</td><td><input name='phrase' type='TEXT' width='60'></td></tr>
+        <tr><td>単語：</td><td><input name='words' type='TEXT' value='python,Flask'></td></tr>
+    </table>
+    <p>準備ができたら、以下のボタンを押してください。</p>
+    <p><input value='実行！' type='SUBMIT'></p>
+</form>
+
+{% endblock %}
