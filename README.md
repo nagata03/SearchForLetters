@@ -6,7 +6,7 @@
 *※本アプリケーションは書籍「Head First Python 第2版」を参考にしながら作成し、一部改良を加えたものです。*
 
 ## Demo
-![demo](sample_python_webapp/Demo_SearchForLetters.gif)
+![](sample_python_webapp/media/Demo_SearchForLetters.gif)
 
 ## Description
 ### search_for_letters
