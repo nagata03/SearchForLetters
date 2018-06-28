@@ -27,6 +27,8 @@ def do_login() -> str:
 # ログアウトページ
 @app.route('/logout')
 def do_logout() -> str:
+    if 'logged_in' not in session.keys():
+        return 'ログインしていません。'
     session.pop('logged_in')    # sessionからlogged_inキーを削除
     return 'ログアウトしました。'
 
