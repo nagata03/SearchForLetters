@@ -5,6 +5,9 @@
 また、検索履歴を参照できます。  
 *※本アプリケーションは書籍「Head First Python 第2版」を参考にしながら作成し、一部改良を加えたものです。*
 
+## Demo
+![demo](https://github.com/nagata03/sample_python_webapp/Demo_SearchForLetters.gif)
+
 ## Description
 ### search_for_letters
 1. フレーズと検索文字を入力します。検索文字は複数入力できます。検索文字に記号やスペースを入れた場合、それらも検索対象となります。
